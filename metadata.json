@@ -1,0 +1,6 @@
+{
+  "name": "大赵社区选民名单识别与公告生成系统",
+  "description": "古城镇大赵社区换届选举选民名单智能OCR识别、档案比对核验与公文Word一键导出系统",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-official-title: "FZZYJW", "FZXiaoBiaoSong-B05S", "SimSun", "STSong", serif;
+    --font-official-body: "FangSong", "STFangsong", "SimSun", serif;
+    --font-official-heading: "SimHei", "STHeiti", sans-serif;
+    --font-official-kai: "KaiTi", "STKaiti", serif;
+  }
+}
+
+/* Print Styles for Standard Village Notice */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 20mm 20mm 20mm 20mm !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
